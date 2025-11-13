@@ -1,9 +1,3 @@
-// src/components/TaskItem.jsx
-import React from 'react';
-
-/**
- * Elemento individual de tarea con acciones.
- */
 const TaskItem = ({ task, toggleComplete, deleteTask }) => {
   return (
     <li className={`task-item ${task.completed ? 'completed' : ''}`}>

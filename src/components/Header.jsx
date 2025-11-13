@@ -1,9 +1,3 @@
-// src/components/Header.jsx
-import React from 'react';
-
-/**
- * Componente de encabezado con título y descripción.
- */
 const Header = () => {
   return (
     <header className="header">

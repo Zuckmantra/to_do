@@ -1,10 +1,5 @@
-// src/components/TaskList.jsx
-import React from 'react';
 import TaskItem from './TaskItem';
 
-/**
- * Lista de tareas. Recibe tareas y funciones como props.
- */
 const TaskList = ({ tasks, toggleComplete, deleteTask }) => {
   return (
     <ul className="task-list">

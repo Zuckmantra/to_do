@@ -1,9 +1,5 @@
-// src/components/TaskForm.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-/**
- * Formulario para agregar nuevas tareas.
- */
 const TaskForm = ({ addTask }) => {
   const [title, setTitle] = useState('');
 
